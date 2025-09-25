@@ -1,0 +1,13 @@
+title: neteng
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: ruby
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
