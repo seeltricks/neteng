@@ -7,11 +7,3 @@
   {% endunless %}
 {% endfor %}
 </ul>
-
-
-
-<ul>
-{% for page in site.pages %}
-  <li>{{ page.path }} - <a href="{{ page.url }}">{{ page.name | remove: '.md' | replace: '-', ' ' }}</a></li>
-{% endfor %}
-</ul>
